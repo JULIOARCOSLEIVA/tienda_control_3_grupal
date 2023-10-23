@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "7dc4f56c-9a02-44e8-bac2-18b8c98a7d00",
+		"name": "productos_postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22352068"
+	},
+	"item": [
+		{
+			"name": "Crear Producto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Esmalte al agua\",\r\n    \"descripcion\": \"Esmalte a base de agua de alta calidad y durabilidad\",\r\n    \"categoria\": \"Pintura\",\r\n    \"precio\": 25000.0,\r\n    \"stock\": 12,\r\n    \"imagenUrl\": \"assets/esmalte.jpg\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/control3-75a1a/us-central1/createProduct",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"control3-75a1a",
+						"us-central1",
+						"createProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar productos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Esmalte al agua actualizado\",\r\n    \"precio\": 27000.0,\r\n    \"stock\": 10\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/control3-75a1a/us-central1/deleteProduct?id=es1\n\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"control3-75a1a",
+						"us-central1",
+						"deleteProduct"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "es1\n\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "borrar productos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5001/control3-75a1a/us-central1/deleteProduct?id=es1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"control3-75a1a",
+						"us-central1",
+						"deleteProduct"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "es1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

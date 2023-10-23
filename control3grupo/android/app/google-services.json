@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521853285791",
+    "project_id": "control3-75a1a",
+    "storage_bucket": "control3-75a1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521853285791:android:dc80e93833ee17ad02b9aa",
+        "android_client_info": {
+          "package_name": "com.example.control3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA24cRQQz3D3G9k3qF7lwHQvdGLe1E2WJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521853285791:android:a5889cf69e51818b02b9aa",
+        "android_client_info": {
+          "package_name": "com.example.control3grupo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA24cRQQz3D3G9k3qF7lwHQvdGLe1E2WJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
